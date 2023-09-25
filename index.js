@@ -1,5 +1,4 @@
-const sinon = require('sinon');
-const expect = require('chai').expect;
+
 
 function writeCards(names, gift) {
   return names.map((name) => `Thank you, ${name}, for the wonderful ${gift} gift!`);
